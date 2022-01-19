@@ -10,9 +10,72 @@ body {
 .header-nav {
     border-bottom: 1px solid #e2e2e2;
 }
+.navigation {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .navigation-link {
     font-size: 16px;
     line-height: 22px;
     color: #222222;
     text-decoration: none;
+    display: block;
+    vertical-align: top;
+    
 }
+.clearfix {
+    clear: both;
+}
+.navigation {
+    padding: 15px 0;
+}
+.navigation-list {
+    float: left;
+}
+.navigation-link.logo {
+    background-image: url(image/logo-visa.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-left: 114px;
+    height: 39px;
+    border-radius: 39px;
+}
+.navigation-list + .navigation-list {
+    float: right;
+}
+.navigation-item {
+    display: inline-block;
+    margin-right: 30px;
+    vertical-align: top;
+}
+.navigation-item.logo {
+    margin-right: 40px;
+}
+.navigation-item.move {
+    margin-top: 8.5px;
+}
+.navigation-item:last-child {
+    margin-right: 0;
+}
+.navigation-link:hover {
+    color: rgb(75, 172, 139);
+}
+.navigation-link.logo:hover {
+    background-color: bisque;
+}
+.button-link {
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 48px;
+    line-height: 25px;
+    color: #222222;
+    padding: 10.5px 36px;
+}
+.button-link:hover {
+    background-color: bisque;
+}
+.navigation-item.button {
+    margin-left: 10px;
+}
+
