@@ -113,15 +113,18 @@ body {
     margin-right: auto;
     margin-left: auto;
 }
+.shopping {
+    padding-top: 40px;
+}
 .container.shopping {
-    padding: 203px 0 112px 0;
+    padding: 163px 0 112px 0;
     background-image: url(image/shopping-phone.png);
     background-repeat: no-repeat;
     background-size: 585px 546px;
-    background-position: right, top;
+    background-position: right top;
 }
 .shopping-text {
-    max-width: 420px;
+    max-width: 450px;
     line-height: 26px;
 }
 .shopping-body {
@@ -152,4 +155,54 @@ body {
 }
 .shopping-link:hover {
     color: rgb(75, 172, 139);
+}
+.boost-title {
+    font-size: 36px;
+    line-height: 43px;
+    margin-bottom: 12px;
+}
+.container.boost {
+    padding: 311px 0 243px 720px;
+    background-image: url(image/boost-phone.png);
+    background-repeat: no-repeat;
+    background-size: 585px 657px;
+    background-position: left top;
+}
+.shopping-text.boost-text {
+    margin-bottom: 12px;
+}
+.container.care {
+    padding: 195px 0 205px 0;
+    background-image: url(image/care-phone.png);
+    background-repeat: no-repeat;
+    background-size: 585px 587px;
+    background-position: right top;
+}
+.cashback-button {
+    border: 1px solid #000000;
+    border-radius: 48px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #222222;
+    background-color: #FFFFFF;
+    padding: 10.5px 35px;
+    margin: 0;
+}
+.cashback-button:hover {
+    background-color: #3f3c3c;
+    color: #FFFFFF;
+}
+.container.cashback {
+    max-width: 1200px;
+    display: inline-block;
+    text-align: center;
+}
+.shopping-body {
+    max-width: 1200px;
+    display: inline-block;
+}
+.shopping-text.space {
+    max-width: 585px;
 }
