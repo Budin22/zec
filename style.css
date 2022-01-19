@@ -206,3 +206,10 @@ body {
 .shopping-text.space {
     max-width: 585px;
 }
+.firm-link {
+    display: block;
+}
+.firm-icon {
+    display: inline-block;
+    width: 25%;
+}
