@@ -6,6 +6,8 @@ body {
     font-family: 'Nunito', sans-serif;
     font-size: 18px;
     font-weight: 400;
+    color: #222222;
+
 }
 .header-nav {
     border-bottom: 1px solid #e2e2e2;
@@ -18,11 +20,9 @@ body {
 .navigation-link {
     font-size: 16px;
     line-height: 22px;
-    color: #222222;
     text-decoration: none;
     display: block;
     vertical-align: top;
-    
 }
 .clearfix {
     clear: both;
@@ -69,7 +69,6 @@ body {
     box-sizing: border-box;
     border-radius: 48px;
     line-height: 25px;
-    color: #222222;
     padding: 10.5px 36px;
 }
 .button-link:hover {
@@ -78,4 +77,79 @@ body {
 .navigation-item.button {
     margin-left: 10px;
 }
+.app-link {
+    height: 50px;
+    width: 170px;
+    display: block;
+}
+.app-link.apple {
+    background-image: url(image/App-Store.png);
+    background-repeat: no-repeat;
+    background-size: 137px 37px;
+    background-color: #000000;
+    background-position: center;
+    border: 2px solid #a6a6a6;
+    border-radius: 8px;
+    margin-bottom: 21px;
 
+}
+.app-link.google {
+    background-image: url(image/Google-Play.png);
+    background-repeat: no-repeat;
+    background-size: 137px 37px;
+    background-color: #000000;
+    background-position: center;
+    border: 2px solid #a6a6a6;
+    border-radius: 8px;
+}
+.app-link.google:hover {
+    background-color: #3f3c3c;
+}
+.app-link.apple:hover {
+    background-color: #3f3c3c;
+}
+.container {
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.container.shopping {
+    padding: 203px 0 112px 0;
+    background-image: url(image/shopping-phone.png);
+    background-repeat: no-repeat;
+    background-size: 585px 546px;
+    background-position: right, top;
+}
+.shopping-text {
+    max-width: 420px;
+    line-height: 26px;
+}
+.shopping-body {
+    margin-bottom: 14px;
+}
+.shopping-title {
+    max-width: 370px;
+    font-size: 42px;
+    line-height: 50px;
+}
+.shopping-header {
+    margin-bottom: 23px;
+}
+.shopping-link {
+    font-size: 16px;
+    line-height: 25px;
+    color: #000000;
+    background-image: url(image/link.png);
+    background-repeat: no-repeat;
+    background-size: 27px 27px;
+    background-position: left;
+    padding-left: 35px;
+    height: 27px;
+    text-decoration: none;
+    display: inline-block;
+    max-width: 500px;
+    margin-bottom: 32px;
+}
+.shopping-link:hover {
+    color: rgb(75, 172, 139);
+}
