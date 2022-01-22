@@ -313,8 +313,9 @@ body {
     font-size: 14px;
     line-height: 19px;
     color: #000000;
-    margin-bottom: 15px;
     text-decoration: none;
+    display: inline-block;
+    vertical-align: top;
 }
 .additional-info-link:hover {
     color: rgb(31, 167, 38);
@@ -352,4 +353,31 @@ body {
 .additional-info-img:hover {
     background-color: #a6a6a6;
 }
-
+.additional-info {
+    padding-bottom: 55px;
+}
+.copyright-body-text {
+    max-width: 840px;
+    font-size: 12px;
+    line-height: 16px;
+    color: #AAAAAA;
+}
+.copyrigth-icon {
+    background-image: url(image/monobank.png);
+    background-repeat: no-repeat;
+    background-size: 234px 23px;
+    background-position: left center;
+    height: 23px;
+    width: 234px;
+    margin-bottom: 20px;
+}
+.copyright-body {
+    background-image: url(image/pci.png);
+    background-repeat: no-repeat;
+    background-size: 176px 59px;
+    background-position: right center;
+    padding: 6px 0 6px 0;
+}
+.copyright {
+    padding-bottom: 66px;
+}
