@@ -232,3 +232,46 @@ body {
 .firm-link:hover {
     background-color: bisque;
 }
+.firm-list {
+    margin-bottom: 77px;
+}
+.app-link-small {
+    height: 54px;
+    width: 87px;
+    display: inline-block;
+}
+.app-link-small:hover {
+    background-color: rgb(201, 211, 197);
+}
+.google-small {
+    background-image: url(image/google-small.png);
+    background-repeat: no-repeat;
+    background-size: 70px 28px;
+    background-position: center;
+    border: 2px solid #222222;
+    border-radius: 8px;
+}
+.apple-small {
+    background-image: url(image/apple-small.png);
+    background-repeat: no-repeat;
+    background-size: 67px 28px;
+    background-position: center;
+    border: 2px solid #222222;
+    border-radius: 8px;
+    margin-right: 24px;
+}
+.mastercard > .container {
+    background-image: url(image/mastercard.png);
+    background-repeat: no-repeat;
+    background-size: 585px 589px;
+    background-position: right top;
+    padding-bottom: 188px;
+    padding-top: 199px;
+}
+.container.fees {
+    padding: 145px 0 116px 720px;
+    background-image: url(image/fees.png);
+    background-repeat: no-repeat;
+    background-size: 585px 422px;
+    background-position: left top;
+}
