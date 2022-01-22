@@ -160,6 +160,7 @@ body {
     font-size: 36px;
     line-height: 43px;
     margin-bottom: 12px;
+    display: block;
 }
 .container.boost {
     padding: 311px 0 243px 720px;
@@ -194,9 +195,16 @@ body {
     background-color: #3f3c3c;
     color: #FFFFFF;
 }
-.container.cashback {
-    max-width: 1200px;
+.cashback {
+    margin-bottom: 68px;
+}
+
+.cashback-artical {
+    text-align: center;
+    max-width: 590px;
     display: inline-block;
+}
+.container.center {
     text-align: center;
 }
 .shopping-body {
@@ -208,8 +216,19 @@ body {
 }
 .firm-link {
     display: block;
+    width: 100%;
+    height: 100%;
 }
-.firm-icon {
+.firm-item {
     display: inline-block;
     width: 25%;
+    text-align: center;
+    height: 70px;
+    vertical-align: top;
+}
+.firm-img {
+    display: inline-block;
+}
+.firm-link:hover {
+    background-color: bisque;
 }
