@@ -7,7 +7,6 @@ body {
     font-size: 18px;
     font-weight: 400;
     color: #222222;
-
 }
 .header-nav {
     border-bottom: 1px solid #e2e2e2;
@@ -81,7 +80,6 @@ body {
     height: 50px;
     width: 170px;
     display: block;
-
 }
 .app-link.apple {
     background-image: url(image/App-Store.png);
@@ -92,7 +90,6 @@ body {
     border: 2px solid #a6a6a6;
     border-radius: 8px;
     margin-bottom: 21px;
-
 }
 .app-link.google {
     background-image: url(image/Google-Play.png);
@@ -160,8 +157,9 @@ body {
 .boost-title {
     font-size: 36px;
     line-height: 43px;
-    margin-bottom: 12px;
+    margin-bottom: 22px;
     display: block;
+    position: relative;
 }
 .container.boost {
     padding: 311px 0 243px 720px;
@@ -199,7 +197,6 @@ body {
 .cashback {
     margin-bottom: 68px;
 }
-
 .cashback-artical {
     text-align: center;
     max-width: 590px;
@@ -236,6 +233,27 @@ body {
 .firm-list {
     margin-bottom: 77px;
 }
+.Booking {
+    padding-top: 18px;
+}
+.AliExpress {
+    padding-top: 13px;
+}
+.allegro {
+    padding-top: 6.5px;
+}
+.zalando {
+    padding-top: 5.5px;
+}
+.Media {
+    padding-top: 22px;
+}
+.RTV {
+    padding-top: 20px;
+}
+.GRPUPON {
+    padding-top: 20px;
+}
 .app-link-small {
     height: 54px;
     width: 87px;
@@ -269,6 +287,12 @@ body {
     padding-bottom: 188px;
     padding-top: 199px;
 }
+.mastercard-icon {
+    position: absolute;
+    left: 436px;
+    top: -15px;
+    width: 22px;
+}
 .container.fees {
     padding: 145px 0 116px 720px;
     background-image: url(image/fees.png);
@@ -293,18 +317,23 @@ body {
 .currency-text + .currency-text {
     margin-bottom: 0;
 }
-.container.account {
+.account {
+    margin-right: auto;
+    margin-left: auto;
+    width: 1290px;
+    border-bottom: 1px solid #CBD6E2;
+}
+.account > .container {
     padding: 83px 0 142px 720px;
     background-image: url(image/account.png);
     background-repeat: no-repeat;
     background-size: 585px 458px;
     background-position: left top;
-    border-bottom: 1px solid #CBD6E2;
 }
 .account-body {
     margin-bottom: 33px;
 }
-.account > .app-link {
+.account-footer > .app-link {
     display: inline-block;
     margin-right: 22px;
     vertical-align: top;
@@ -334,7 +363,7 @@ body {
 .additional-info-item {
     margin-bottom: 15px;
 }
-.additional-info-list > .additional-info-item:last-child {
+.additional-sub-list > .additional-info-item:last-child {
     margin-bottom: 0;
 }
 .additional-info-img {
