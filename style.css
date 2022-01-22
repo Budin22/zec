@@ -275,3 +275,31 @@ body {
     background-size: 585px 422px;
     background-position: left top;
 }
+.container.currency {
+    padding: 177px 0 149px 0px;
+    background-image: url(image/currency.png);
+    background-repeat: no-repeat;
+    background-size: 585px 522px;
+    background-position: right top;
+}
+.boost-title.currency {
+    max-width: 375px;
+}
+.currency-text {
+    margin-bottom: 15px;
+    max-width: 475px;
+}
+.currency-text + .currency-text {
+    margin-bottom: 0;
+}
+.container.account {
+    padding: 83px 0 142px 720px;
+    background-image: url(image/account.png);
+    background-repeat: no-repeat;
+    background-size: 585px 458px;
+    background-position: left top;
+}
+.account-body {
+    margin-bottom: 33px;
+}
+
