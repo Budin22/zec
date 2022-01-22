@@ -81,6 +81,7 @@ body {
     height: 50px;
     width: 170px;
     display: block;
+
 }
 .app-link.apple {
     background-image: url(image/App-Store.png);
@@ -298,8 +299,57 @@ body {
     background-repeat: no-repeat;
     background-size: 585px 458px;
     background-position: left top;
+    border-bottom: 1px solid #CBD6E2;
 }
 .account-body {
     margin-bottom: 33px;
+}
+.account > .app-link {
+    display: inline-block;
+    margin-right: 22px;
+    vertical-align: top;
+}
+.additional-info-link {
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+.additional-info-link:hover {
+    color: rgb(31, 167, 38);
+}
+.additional-info-list {
+    display: inline-block;
+    width: 200px;
+    padding: 69px 30px 0 0;
+    vertical-align: top;
+}
+.additional-info-title {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 33px;
+}
+.additional-info-item {
+    margin-bottom: 15px;
+}
+.additional-info-list > .additional-info-item:last-child {
+    margin-bottom: 0;
+}
+.additional-info-img {
+    background-image: url(image/follow-in.png);
+    background-repeat: no-repeat;
+    background-size: 18px 16px;
+    background-position: center;
+    border: 2px solid #000000;
+}
+.additional-info-link.additional-info-img {
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    vertical-align: top;
+}
+.additional-info-img:hover {
+    background-color: #a6a6a6;
 }
 
